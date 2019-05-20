@@ -21,6 +21,8 @@ public class Singleton4 {
 
     private volatile static Singleton4 uniqueInstance;
 
+    private Singleton4(){}
+
     public static Singleton4 getUniqueInstance() {
 
         if (uniqueInstance == null) {

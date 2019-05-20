@@ -11,6 +11,8 @@ package singletonpattern;
  */
 public class Singleton5 {
 
+    private Singleton5(){}
+
     /**
      * 静态内部类只有在被调用的时候才会加载，与静态方法一样
      */
